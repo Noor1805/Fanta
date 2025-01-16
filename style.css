@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    
+  }
+  
+  #main {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(150deg,rgb(255, 160, 0), rgb(174, 11, 3));
+    padding-top: 50px; /* Adjust this based on the height of your navbar */
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6vh;/* You can change this to whatever background color you want */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow below the navbar */
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 1.1vw;
+    color: beige;
+  }
+  
+  .cntr-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+  }
+  
+  nav i {
+    font-size: 1.3vw;
+    color: rgb(250, 245, 245);
+    
+    padding-right: 15px;
+  }
+  .one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(150deg,rgb(255, 160, 0), rgb(174, 11, 3));
+  }
+  #fanta{
+    height: 60%;
+    position: absolute;
+    z-index: 2;
+  }
+  #slice{
+    width: 15%;
+    top: 16%;
+    position: absolute;
+    left: 32%;
+    z-index: 1;
+  }
+  #orange{
+    width: 20%;
+    z-index: 3;
+    position: absolute;
+    top: 57%;
+    right: 30%;
+  }
+  #leaf{
+    width: 18%;
+    top: 11%;
+    position: absolute;
+    left: 3%;
+    transform: rotate(290deg);
+  }
+  #coconut{
+    width: 20%;
+    top: 10%;
+    position: absolute;
+    right: 0%;
+    transform: rotate(200deg);
+  }
+  #leaf2{
+    width: 12%;
+    position: absolute;
+    top: 68%;
+    left: 80%;
+    transform: rotate(350deg);
+  }
+  .one h1{
+    color: white;
+    font-size: 25vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .two{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: #240601;
+    
+  }
+  .lft{
+    width: 50%;
+    height: 100%;display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .lft svg{
+    width: 60%;
+    margin-top: 50vh;
+  }
+  .rht{
+    width: 50%;
+    left: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+  }
+  .rht h1{
+    color: white;
+    font-size: 5vw;
+  }
+  .rht p{
+    color: white;
+    font-size: 1.2vw;
+    width: 83%;
+  }
+  .three{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    background: linear-gradient(150deg,rgb(255, 160, 0), rgb(174, 11, 3));
+    
+  }
+  .card{
+    width: 25vw;
+    height: 70vh;
+    margin-top: 160px;
+    gap: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 20px;
+    background: rgb(246, 245, 244);
+  }
+  .card h1{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 45vh;
+  }
+  .card button{
+    font-size: 1vw;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    background: rgb(244, 144, 4);
+    
+  }
+  .card #pepsi{
+    width: 85%;
+    bottom: 130px;
+    position: absolute;
+  }
+  .card #coke{
+    width: 110%;
+    bottom: 130px;
+    position: absolute;
+  }
+  .card:nth-child(1){
+    background-color: rgb(8, 50, 146);
+  }
+  .card:nth-child(2){
+    background-color: rgb(243, 157, 9);
+  }
+  .card:nth-child(3){
+    background-color: rgba(130, 14, 14, 0.974);
+  }
+  #sl,#sl2{
+    height: 50%;
+    position: absolute;
+    top: -20%;
+  }
+
+  
